@@ -1,5 +1,16 @@
 # ax^2+bx+c=0
-# x = (-b+sqrt(b^2-4ac))/2*a
-# x = (-b-sqrt(b^2-4ac))/2*a
+# x1 = (-b+sqrt(b^2-4ac))/2*a
+# x2 = (-b-sqrt(b^2-4ac))/2*a
+from numpy import math
+a = float(input("Enter coefficients of x^2 : "))
+b = float(input("Enter coefficients of x : "))
+c = float(input("Enter the constant term : "))
+
+discriminant = math.sqrt(b*b - 4*a*c)
+x1 = (-b + discriminant)/2*a
+x2 = (-b - discriminant)/2*a
+
+print("The roots of equation are : ")
+print(x1,x2)
 
 
