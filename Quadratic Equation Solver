@@ -1,2 +1,5 @@
-ax^2+bx+c=0
+# ax^2+bx+c=0
+# x = (-b+sqrt(b^2-4ac))/2*a
+# x = (-b-sqrt(b^2-4ac))/2*a
+
 
