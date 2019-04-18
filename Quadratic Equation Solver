@@ -13,4 +13,13 @@ x2 = (-b - discriminant)/2*a
 print("The roots of equation are : ")
 print(x1,x2)
 
-
+print("The roots of equation are : ")
+print(x1,x2)
+x = 2*a/b
+print("The equation of axis of symmetry is: x = ", x )
+if a>0:
+    print("The curve faces upward")
+elif a<0:
+    print("The curve faces downward")
+else:
+    print("This is not quadratic curve")
